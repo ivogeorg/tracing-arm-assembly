@@ -1,3 +1,5 @@
+For a more succinct version of this resource, see [instruction-reading-short](instruction-reading-short.md).
+
 | Label | Instruction | Meaning |
 | --- | --- | --- |
 |`global_count:`| |

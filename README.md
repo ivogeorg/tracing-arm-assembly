@@ -4,7 +4,7 @@ A short demo of tracing an ARM assembly program.
 
 ## 1. C Program Compiled to ARM Cortex-M0 Assembly
 
-You can see both programs side by side in the convenient [Compiler Explorer](https://godbolt.org/z/FLnBlV), shown below for convenience.
+You can see both programs side by side in the convenient [Compiler Explorer](https://godbolt.org/z/FLnBlV) with line-by-line highlights. Screenshot shown below.
 
 ![alt text](https://github.com/ivogeorg/tracing-arm-assembly/blob/master/images/compiler-explorer.png "Programs in Compiler Explorer")
 

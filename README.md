@@ -25,8 +25,8 @@ A line-by-line reading of the instructions of the generated ARM code can be seen
 
 By tracing the execution of the program, we will identify the computer state at three locations in the code:
 1. After Line 17, before Line 18. [Sketch.](https://github.com/ivogeorg/tracing-arm-assembly/blob/master/images/Tracing-example-1-State-after-line-17.png)
-2. After Line 9, before Line 10.
-3. After Line 28, before Line 29.
+2. After Line 9, before Line 10. [Sketch.](https://github.com/ivogeorg/tracing-arm-assembly/blob/master/images/Tracing-example-2-State-after-line-9.png)
+3. After Line 28, before Line 29. [Sketch.](https://github.com/ivogeorg/tracing-arm-assembly/blob/master/images/Tracing-example-3-State-after-line-28.png)
 
 ### 3.2 Video demo
 

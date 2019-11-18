@@ -28,6 +28,16 @@ By tracing the execution of the program, we will identify the computer state at 
 2. After Line 9, before Line 10. [Sketch.](https://github.com/ivogeorg/tracing-arm-assembly/blob/master/images/Tracing-example-2-State-after-line-9.png)
 3. After Line 28, before Line 29. [Sketch.](https://github.com/ivogeorg/tracing-arm-assembly/blob/master/images/Tracing-example-3-State-after-line-28.png)
 
-### 3.2 Video demo
+### 3.2 Things to keep in mind
+
+1. Execution starts with the first instruction of the `main` function (for compiled standalone C programs).
+2. Instructions are stored in memory in consecutive _words_ and are executed in order, except after a branch.
+3. Upon branching, the Link Register `lr` is assigned the address of the instruction following the branch. This is called the _return address_.
+4. The stack grows _down_ from higher to lower addresses. The _top_ of the stack is its lowest address. This address is stored in the Stack Pointer register `sp`. At the start of the program, `sp` holds an invalid address _above_ the top.
+5. Conditional statements and loops are implemented with the use of _status bits_ N, Z, C, and V. They are pary of the Application Status Register and are set and cleared automatically by the processor.
+6. Comparison instructions _always_ update the status bits. Other instructions do not, unless they have an `S` appended to the opcode.
+
+
+### 3.3 Video demo
 
 TODO

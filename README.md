@@ -30,6 +30,8 @@ By tracing the execution of the program, we will identify the computer state at 
 2. After Line 9, before Line 10. [Sketch.](https://github.com/ivogeorg/tracing-arm-assembly/blob/master/images/Tracing-example-2-State-after-line-9.png)
 3. After Line 28, before Line 29. [Sketch.](https://github.com/ivogeorg/tracing-arm-assembly/blob/master/images/Tracing-example-3-State-after-line-28.png)
 
+A clean and empty [sketch template](https://docs.google.com/drawings/d/1lsKpwk3i9tpe8d99CfUV8mdPVeAGCmOt5WgwYt2xhfY/edit?usp=sharing).
+
 ### 3.2 Things to keep in mind
 
 1. Execution starts with the first instruction of the `main` function (for compiled standalone C programs).
